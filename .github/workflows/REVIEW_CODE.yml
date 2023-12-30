@@ -29,6 +29,9 @@ jobs:
           cd ~/Library/Developer/Xcode/DerivedData/SwiftCinema-*/Build/Products/Debug-iphonesimulator/SwiftCinema.app
           if test -d /Frameworks; then
             echo "There's the framework here"
+          else
+            echo "There's no the framework here"
+            exit 1
           fi
 
   
