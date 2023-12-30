@@ -26,6 +26,11 @@ jobs:
       - name: 빌드
         run: |
           xcodebuild build -project SwiftCinema.xcodeproj -scheme SwiftCinema -destination 'platform=iOS Simulator,name=iPhone 15 Pro,OS=latest'
+          cd ~/Library/Developer/Xcode/DerivedData/SwiftCinema-*/Build/Products/Debug-iphonesimulator/SwiftCinema.app
+          if test -d /Frameworks; then
+            echo "There's the framework here"
+          fi
+
   
   build-package:
     name: 스위프트 패키지를 빌드 합니다
@@ -37,7 +42,8 @@ jobs:
       - name: 빌드
         run: |
           cd swift-cinema
-          xcodebuild build -scheme Cinema -destination 'platform=iOS Simulator,name=iPhone 15 Pro,OS=latest'
+          xcodebuild build -scheme swift-cinema -destination 'platform=iOS Simulator,name=iPhone 15 Pro,OS=latest'
+          
   
   test-package:
     name: 스위프트 패키지를 테스트 합니다
