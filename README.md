@@ -60,8 +60,11 @@ SwiftCinema 는 `SwiftCinema` 라는 `.xcproj` 와 `swift-cinema` 라는 스위�
 ### 개발
 - [x_0o0](https://github.com/x-0o0)
 
-### 검증
+### 검증 및 프로세스 개선에 도움을 주신 분들
 - [mininny](https://github.com/mininny)
+- [zbqmgldjfh](https://github.com/zbqmgldjfh)
+- [famous90](https://github.com/famous90)
+
 
 
 ## 참고
