@@ -10,6 +10,14 @@ SwiftCinema 는 쿠링에서 훌륭한 iOS 개발 멤버를 모시기 위해 개
 이 앱에는 몇 가지 버그로 인해 앱이 실행되지 않거나 실행되어도 런타임 에러가 발생합니다.
 
 > **미션: 이 앱이 정상적으로 동작할 수 있도록 버그를 찾아내주세요!**
+
+버그는 총 **5개** 이고 관련 내용은 다음과 같습니다.
+- SwiftUI
+- HTTP Network
+- Swift Concurrency
+- Dynamic Library
+
+버그를 찾아내는 과정에서 많은 iOS 지식을 얻을 수 있길 바랍니다!
  
 ### 개발 환경
 
@@ -50,5 +58,15 @@ SwiftCinema 는 `SwiftCinema` 라는 `.xcproj` 와 `swift-cinema` 라는 스위�
 문의사항이나 이슈 레포트는 인스타그램 [@kuring.konkuk](https://instagram.com/kuring.konkuk) 또는 이메일 [kuring.korea@gmail.com](mailto:kuring.korea@gmail.com) 으로 해주시면 빠르게 답변드리겠습니다.
 
 ## 기여자
+
+### 개발
 - [x_0o0](https://github.com/x-0o0)
 
+### 검증
+- [mininny](https://github.com/mininny)
+
+
+## 참고
+- https://developer.apple.com/documentation/swiftui/migrating-from-the-observable-object-protocol-to-the-observable-macro
+- https://developer.apple.com/documentation/swift/concurrency
+- https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/DynamicLibraries/100-Articles/OverviewOfDynamicLibraries.html
