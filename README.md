@@ -41,7 +41,7 @@ SwiftCinema 는 `SwiftCinema` 라는 `.xcproj` 와 `swift-cinema` 라는 스위�
 |___ 📁 swift-cinema # 스위프트 패키지
 ``` 
 
-## 코드 제출 방법 (Pull Request 생성)
+## 코드 제출 방법 (이메일 제출)
 1. GitHub 에서 퍼블릭 레포지토리를 다운로드 합니다.
 2. 코드를 수정합니다.
 3. [kuring.korea@gmail.com](mailto:kuring.korea@gmail.com) 으로 코드가 수정된 폴더와 커피챗 안내를 받을 연락처를 전송합니다.
