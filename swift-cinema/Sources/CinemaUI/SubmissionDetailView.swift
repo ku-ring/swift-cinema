@@ -13,9 +13,7 @@ struct SubmissionDetailView: View {
                 Text("학우님의 수정으로 앱이 작동하게 되었습니다!")
                     .font(.headline)
                 
-                Text("수정하신 코드를 **push** 한 후에 **PR 리뷰**를 요청하여 쿠링 팀에 알려주세요!")
-                
-                Text("PR 리뷰를 요청하신 다음 [kuring.korea@gmail.com](mailto:kuring.korea@gmail.com) 으로 커피챗 안내를 받을 **연락처**를 알려주시면 추가적인 코드 검증 후 **커피챗** 안내를 도와드릴 예정입니다.")
+                Text("[kuring.korea@gmail.com](mailto:kuring.korea@gmail.com)으로 **수정하신 코드를 포함한 전체 폴더**와 커피챗 안내를 받을 **연락처**를 알려주시면 추가적인 코드 검증 후 **커피챗** 안내를 도와드릴 예정입니다.")
                 
                 Text("**쿠링 미션에 참여해주셔서 감사합니다**")
             } footer: {
