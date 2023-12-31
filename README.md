@@ -18,6 +18,14 @@ SwiftCinema 는 쿠링에서 훌륭한 iOS 개발 멤버를 모시기 위해 개
 - Dynamic Library
 
 버그를 찾아내는 과정에서 많은 iOS 지식을 얻을 수 있길 바랍니다!
+
+### 꼭 읽어주세요!
+
+👉🏼 [**시작가이드**](/시작가이드.md)
+
+👉🏾 [**제출가이드**](/제출가이드.md)
+
+위 가이드를 준수하지 않으면 코드 검증이 불가능 합니다.
  
 ### 개발 환경
 
@@ -41,14 +49,8 @@ SwiftCinema 는 `SwiftCinema` 라는 `.xcproj` 와 `swift-cinema` 라는 스위�
 |___ 📁 swift-cinema # 스위프트 패키지
 ``` 
 
-## 코드 제출 방법 (이메일 제출)
-1. GitHub 에서 퍼블릭 레포지토리를 다운로드 합니다.
-2. 코드를 수정합니다.
-3. [kuring.korea@gmail.com](mailto:kuring.korea@gmail.com) 으로 코드가 수정된 폴더와 커피챗 안내를 받을 연락처를 전송합니다.
-6. 코드 검증이 완료되면 쿠링 팀에서 보내주신 연락처로 커피챗 안내를 도와드립니다.
-
 ## 라이센스
-이 오픈소스 프로젝트는 [MIT 라이센스](../LICENSE)를 준수합니다.
+이 오픈소스 프로젝트는 [MIT 라이센스](/LICENSE.txt)를 준수합니다.
 
 ## 연락처
 문의사항이나 이슈 레포트는 인스타그램 [@kuring.konkuk](https://instagram.com/kuring.konkuk) 또는 이메일 [kuring.korea@gmail.com](mailto:kuring.korea@gmail.com) 으로 해주시면 빠르게 답변드리겠습니다.

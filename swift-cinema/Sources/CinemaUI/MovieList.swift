@@ -22,10 +22,19 @@ public struct MovieList: View {
             // 수정하지 마십시오
             Section {
                 #if targetEnvironment(simulator)
-                Text("실제 기기에서 돌리면 버튼이 나타납니다")
+                Text("실제 기기에서 돌리십시오")
+                
+                NavigationLink("개발자 계정이 없어서 실제 기기 실행이 불가합니까?") {
+                    SubmissionDetailView(
+                        needsAlternative: true
+                    )
+                }
+                .disabled(fetcher.movies.isEmpty)
                 #else
                 NavigationLink("코드 제출 안내") {
-                    SubmissionDetailView()
+                    SubmissionDetailView(
+                        needsAlternative: false
+                    )
                 }
                 .disabled(fetcher.movies.isEmpty)
                 #endif
