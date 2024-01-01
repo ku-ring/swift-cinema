@@ -64,7 +64,7 @@ SwiftCinema 는 `SwiftCinema` 라는 `.xcproj` 와 `swift-cinema` 라는 스위�
 - [mininny](https://github.com/mininny)
 - [zbqmgldjfh](https://github.com/zbqmgldjfh)
 - [famous90](https://github.com/famous90)
-
+- [chaneeii](https://github.com/chaneeii)
 
 
 ## 참고
