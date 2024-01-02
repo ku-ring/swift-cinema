@@ -53,7 +53,7 @@ public struct MovieList: View {
 }
 
 #Preview {
-    NavigationView {
+    NavigationStack {
         MovieList()
     }
     .environment(MovieCollectionFetcher())

@@ -10,7 +10,7 @@ import CinemaUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView {
+        NavigationStack {
             MovieList()
         }
     }
