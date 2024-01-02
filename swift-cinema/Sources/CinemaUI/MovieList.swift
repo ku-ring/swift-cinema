@@ -22,7 +22,7 @@ public struct MovieList: View {
             // 수정하지 마십시오
             Section {
                 #if targetEnvironment(simulator)
-                Text("실제 기기에서 돌리십시오")
+                Text("실제 기기에서 실행하십시오")
                 
                 NavigationLink("개발자 계정이 없어서 실제 기기 실행이 불가합니까?") {
                     SubmissionDetailView(
