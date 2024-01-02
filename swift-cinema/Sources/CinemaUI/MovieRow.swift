@@ -4,7 +4,7 @@
  - Note: See the `License.txt` file for this sample’s licensing information.
  */
 
-import Models
+@_spi(Mocks) import Models
 import SwiftUI
 
 struct MovieRow: View {

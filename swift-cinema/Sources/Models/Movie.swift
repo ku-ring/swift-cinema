@@ -17,7 +17,7 @@ public struct Movie: Identifiable, Decodable {
 }
 
 extension Movie {
-    public static var kuflix = Movie(
+    @_spi(Mocks) public static var kuflix = Movie(
         name: "Kuflix",
         rank: Int.random(in: 1...10).description,
         code: UUID().uuidString
