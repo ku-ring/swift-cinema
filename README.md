@@ -67,6 +67,7 @@ SwiftCinema 는 `SwiftCinema` 라는 `.xcproj` 와 `swift-cinema` 라는 스위�
 - [chaneeii](https://github.com/chaneeii)
 - [gaeng2y](https://github.com/gaeng2y)
 - [Jager-yoo](https://github.com/Jager-yoo)
+- [dayo2n](https://github.com/dayo2n)
 
 ## 참고
 - https://developer.apple.com/documentation/swiftui/migrating-from-the-observable-object-protocol-to-the-observable-macro
