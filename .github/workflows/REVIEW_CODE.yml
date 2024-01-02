@@ -22,7 +22,7 @@ jobs:
         run: |
           xcodebuild build -project SwiftCinema.xcodeproj -scheme SwiftCinema -destination 'platform=iOS Simulator,name=iPhone 15 Pro,OS=latest'
           cd ~/Library/Developer/Xcode/DerivedData/SwiftCinema-*/Build/Products/Debug-iphonesimulator/SwiftCinema.app
-          if test -d /Frameworks; then
+          if test -d Frameworks; then
             echo "There's the framework here"
           else
             echo "There's no the framework here"
