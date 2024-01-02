@@ -5,7 +5,7 @@
 import Models
 import SwiftUI
 
-@Observable
+@Observable // 수정하지 마십시오
 public class MovieCollectionFetcher {
     /// 영화 순위 별로 나열된 영화 정보
     public var movies: [Movie] = [] {

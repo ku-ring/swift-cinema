@@ -38,7 +38,7 @@ struct SubmissionDetailView: View {
 }
 
 #Preview {
-    NavigationView {
+    NavigationStack {
         SubmissionDetailView(
             needsAlternative: false
         )
