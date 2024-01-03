@@ -13,7 +13,7 @@ concurrency:
 jobs:
   guard-commits:
     name: 커밋 검증을 시작합니다
-    runs-on: unbuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: 커밋 체크
