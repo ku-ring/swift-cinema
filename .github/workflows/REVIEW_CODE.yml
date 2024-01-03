@@ -18,6 +18,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: 커밋 체크
         run: |
+          chmod +x .github/scripts/GUARD_COMMITS.sh
           .github/scripts/GUARD_COMMITS.sh
           
   build-xcproject:
