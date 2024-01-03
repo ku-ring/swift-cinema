@@ -5,7 +5,7 @@ TARGET_FILES=("swift-cinema/Sources/CinemaUI/MovieList.swift" "swift-cinema/Sour
 COMMIT_COUNT=$(git rev-list --count HEAD)
 
 if [ $COMMIT_COUNT -gt 1 ]; then
-  CHANGED_FILES=$(git diff --name-only -W --root main)
+  CHANGED_FILES=$(git diff --name-only -W main HEAD)
 
   for TARGET_FILE in "${TARGET_FILES[@]}"; do
     if [[ $CHANGED_FILES == *"$TARGET_FILE"* ]]; then
