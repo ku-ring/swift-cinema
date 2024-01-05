@@ -16,6 +16,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
       - name: 커밋 체크
         run: |
           chmod +x .github/scripts/GUARD_COMMITS.sh
@@ -67,4 +70,3 @@ jobs:
         run: |
           cd swift-cinema
           xcodebuild test -scheme FetcherTests -destination 'platform=iOS Simulator,name=iPhone 15 Pro,OS=latest'
-    
