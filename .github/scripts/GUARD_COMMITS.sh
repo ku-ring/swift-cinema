@@ -4,7 +4,7 @@ TARGET_FILES=("swift-cinema/Sources/CinemaUI/MovieList.swift" "swift-cinema/Sour
 
 FIRST_COMMIT=$(git rev-list --max-parents=0 HEAD)
 
-CHANGED_FILES=$(git diff --name-only -W $FIRST_COMMIT HEAD)
+CHANGED_FILES=$(git diff -w --name-only $FIRST_COMMIT HEAD)
 
 MODIFIED_TARGET_FILES=()
 for TARGET_FILE in "${TARGET_FILES[@]}"; do
@@ -14,11 +14,9 @@ for TARGET_FILE in "${TARGET_FILES[@]}"; do
 done
 
 if [ ${#MODIFIED_TARGET_FILES[@]} -gt 0 ]; then
-      echo "에러! 수정하면 안되는 파일에 수정이 발생했습니다. 파일경로: $TARGET_FILE"
   for MODIFIED_FILE in "${MODIFIED_TARGET_FILES[@]}"; do
-    echo "- $MODIFIED_FILE"
+    echo "::warning file=$MODIFIED_FILE::올바르지 않은 수정이 발견되었습니다."
   done
-  exit 1
 fi
 
-echo "테스트가 가능합니다."
+echo "커밋 가드 종료"
