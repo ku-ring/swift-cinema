@@ -11,7 +11,21 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  guard-commits:
+    name: 커밋 검증을 시작합니다
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+      - name: 커밋 체크
+        run: |
+          chmod +x .github/scripts/GUARD_COMMITS.sh
+          .github/scripts/GUARD_COMMITS.sh
+          
   build-xcproject:
+    needs: guard-commits
     name: 앱프로젝트를 빌드합니다
     runs-on: macos-13
     steps:
@@ -31,6 +45,7 @@ jobs:
 
   
   build-package:
+    needs: guard-commits
     name: 스위프트 패키지를 빌드 합니다
     runs-on: macos-13
     steps:
@@ -44,6 +59,7 @@ jobs:
           
   
   test-package:
+    needs: guard-commits
     name: 스위프트 패키지를 테스트 합니다
     runs-on: macos-13
     steps:
@@ -54,4 +70,3 @@ jobs:
         run: |
           cd swift-cinema
           xcodebuild test -scheme FetcherTests -destination 'platform=iOS Simulator,name=iPhone 15 Pro,OS=latest'
-    
