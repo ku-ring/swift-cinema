@@ -15,7 +15,7 @@ done
 
 if [ ${#MODIFIED_TARGET_FILES[@]} -gt 0 ]; then
   for MODIFIED_FILE in "${MODIFIED_TARGET_FILES[@]}"; do
-    echo "::warning file=$MODIFIED_FILE::올바르지 않은 수정이 발견되었습니다."
+    echo "::warning:: $MODIFIED_FILE 에서 올바르지 않은 수정이 발견되었습니다."
   done
 fi
 
