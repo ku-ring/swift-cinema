@@ -47,7 +47,12 @@ SwiftCinema 는 `SwiftCinema` 라는 `.xcproj` 와 `swift-cinema` 라는 스위�
 |___ 📁 SwiftCinema # 앱프로젝트 소스
 |___ 📄 SwiftCinema.xcodeproj
 |___ 📁 swift-cinema # 스위프트 패키지
-``` 
+```
+
+### 참고
+- https://developer.apple.com/documentation/swiftui/migrating-from-the-observable-object-protocol-to-the-observable-macro
+- https://developer.apple.com/documentation/swift/concurrency
+- https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/DynamicLibraries/100-Articles/OverviewOfDynamicLibraries.html
 
 ## 모집대상
 - 건국대학교 학부생 (휴학 상관 없음)
@@ -64,19 +69,39 @@ SwiftCinema 는 `SwiftCinema` 라는 `.xcproj` 와 `swift-cinema` 라는 스위�
 ## 기여자
 
 ### 개발
-- [x_0o0](https://github.com/x-0o0)
+<a href="https://github.com/x-0o0">
+ <img src="https://github.com/x-0o0.png" alt="img" width="60"/>
+</a>
 
 ### 검증 및 프로세스 개선에 도움을 주신 분들
-- [mininny](https://github.com/mininny)
-- [zbqmgldjfh](https://github.com/zbqmgldjfh)
-- [famous90](https://github.com/famous90)
-- [chaneeii](https://github.com/chaneeii)
-- [gaeng2y](https://github.com/gaeng2y)
-- [Jager-yoo](https://github.com/Jager-yoo)
-- [dayo2n](https://github.com/dayo2n)
-- [ValseLee](https://github.com/ValseLee)
+<a href="https://github.com/mininny">
+ <img src="https://github.com/mininny.png" alt="img" width="60"/>
+</a>
 
-## 참고
-- https://developer.apple.com/documentation/swiftui/migrating-from-the-observable-object-protocol-to-the-observable-macro
-- https://developer.apple.com/documentation/swift/concurrency
-- https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/DynamicLibraries/100-Articles/OverviewOfDynamicLibraries.html
+<a href="https://github.com/zbqmgldjfh">
+ <img src="https://github.com/zbqmgldjfh.png" alt="img" width="60"/>
+</a>
+
+<a href="https://github.com/famous90">
+ <img src="https://github.com/famous90.png" alt="img" width="60"/>
+</a>
+
+<a href="https://github.com/chaneeii">
+ <img src="https://github.com/chaneeii.png" alt="img" width="60"/>
+</a>
+
+<a href="https://github.com/gaeng2y">
+ <img src="https://github.com/gaeng2y.png" alt="img" width="60"/>
+</a>
+
+<a href="https://github.com/Jager-yoo">
+ <img src="https://github.com/Jager-yoo.png" alt="img" width="60"/>
+</a>
+
+<a href="https://github.com/dayo2n">
+ <img src="https://github.com/dayo2n.png" alt="img" width="60"/>
+</a>
+
+<a href="https://github.com/ValseLee">
+ <img src="https://github.com/ValseLee.png" alt="img" width="60"/>
+</a>
