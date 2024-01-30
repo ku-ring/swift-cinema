@@ -1,3 +1,5 @@
+![wip](https://img.shields.io/badge/모집상태-진행중-F6C954.svg?style=for-the-badge)
+
 #  🍿 SwiftCinema
 
 버그를 찾아내 앱을 성공적으로 실행시켜보세요
