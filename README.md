@@ -1,5 +1,8 @@
 ![wip](https://img.shields.io/badge/모집상태-진행중-F6C954.svg?style=for-the-badge)
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/ku-ring/swift-cinema&count_bg=%23000000&title_bg=%23555555&icon=swift.svg&icon_color=%23FFFFFF&title=%EC%A1%B0%ED%9A%8C%EC%88%98&edge_flat=true)](https://hits.seeyoufarm.com)
+
+
 #  🍿 SwiftCinema
 
 버그를 찾아내 앱을 성공적으로 실행시켜보세요
