@@ -1,4 +1,4 @@
-![wip](https://img.shields.io/badge/모집상태-진행중-F6C954.svg?style=for-the-badge)
+![wip](https://img.shields.io/badge/모집상태-종료-F6C954.svg?style=for-the-badge)
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/ku-ring/swift-cinema&count_bg=%23000000&title_bg=%23555555&icon=swift.svg&icon_color=%23FFFFFF&title=%EC%A1%B0%ED%9A%8C%EC%88%98&edge_flat=true)](https://hits.seeyoufarm.com)
 
@@ -54,7 +54,7 @@ SwiftCinema 는 `SwiftCinema` 라는 `.xcproj` 와 `swift-cinema` 라는 스위�
 |___ 📁 swift-cinema # 스위프트 패키지
 ```
 
-### 참고
+### 도움 되는 자료
 - https://developer.apple.com/documentation/swiftui/migrating-from-the-observable-object-protocol-to-the-observable-macro
 - https://developer.apple.com/documentation/swift/concurrency
 - https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/DynamicLibraries/100-Articles/OverviewOfDynamicLibraries.html
